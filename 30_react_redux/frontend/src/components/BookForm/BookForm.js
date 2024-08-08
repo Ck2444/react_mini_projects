@@ -41,6 +41,7 @@ export default function BookForm() {
     <div className="app-block book-form">
       <h2>Add New Book</h2>
       <form onSubmit={handleSubmit}>
+        <div></div>
         <div>
           <label htmlFor="title">Title:</label>
           <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} />
